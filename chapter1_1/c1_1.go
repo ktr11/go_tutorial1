@@ -1,8 +1,8 @@
+// 基本的な文法
 package main
 
 import "fmt"
 
-// 基本的な文法
 func main() {
 
 	// 変数宣言は型名を変数名の後ろに書く。
