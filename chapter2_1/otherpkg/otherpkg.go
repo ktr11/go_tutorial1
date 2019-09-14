@@ -1,9 +1,11 @@
 package otherpkg
 
 // importで他packageにアクセスする
-import "github.com/ktr11/go_tutorial1/chapter2_1/somepkg"
+// packageに別名をつけることもできる。
+import some "github.com/ktr11/go_tutorial1/chapter2_1/somepkg"
 
+// OtherFunc publicな関数
 func OtherFunc() {
-	somepkg.SomeFunc()
-	somepkg.SomeVar = 5
+	some.SomeFunc()
+	some.SomeVar = 5
 }
