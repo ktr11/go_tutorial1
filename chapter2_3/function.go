@@ -13,7 +13,7 @@ type SavingBox struct {
 
 // NewBox SavingBox作成
 func NewBox(name string) *SavingBox {
-	var sv *SavingBox = new(SavingBox)
+	var sv = new(SavingBox)
 	sv.name = name
 	return sv
 }
